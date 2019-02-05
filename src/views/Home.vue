@@ -8,11 +8,15 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue';
+import dynamicVuexModule from './dynamic-vuex-store/store';
 
 export default {
   name: 'home',
   components: {
     HelloWorld,
+  },
+  created() {
+    this.$store.registerModule('dynamicVuexModule', dynamicVuexModule);
   },
 };
 </script>

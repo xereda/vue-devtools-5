@@ -1,21 +1,15 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import moduleA from './views/module-a/store';
+import module from './views/module/store';
 
 Vue.use(Vuex);
 
 export default new Vuex.Store({
   namespaced: true,
-  state: {
-
-  },
-  mutations: {
-
-  },
-  actions: {
-
-  },
+  state: {},
+  mutations: {},
+  actions: {},
   modules: {
-    moduleA,
+    module,
   },
 });

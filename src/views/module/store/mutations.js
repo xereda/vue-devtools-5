@@ -1,7 +1,7 @@
 import types from './types';
 
 export default {
-  [types.MUTATION_A](state, payload) {
+  [types.MUTATION_MODULE](state, payload) {
     Object.assign(state, payload);
   },
 };

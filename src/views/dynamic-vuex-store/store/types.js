@@ -1,0 +1,3 @@
+export default {
+  MUTATION_DYNAMIC_STORE: 'MUTATION_DYNAMIC_STORE',
+};
